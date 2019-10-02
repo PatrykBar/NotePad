@@ -118,13 +118,13 @@ void __fastcall TForm1::Wrappingpoems1Click(TObject *Sender)
 {
         if (Wrappingpoems1->Checked==true)
         {
-                Wrappingpoems1->Checked==false;
+                Wrappingpoems1->Checked=false;
                 content->WordWrap=false;
                 content->ScrollBars = ssBoth;
         }
         else
         {
-                Wrappingpoems1->Checked==true;
+                Wrappingpoems1->Checked=true;
                 content->WordWrap=true;
                 content->ScrollBars = ssVertical;
         }
